@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden; /* removes scrollbar in x direction */
+}
+
+:root{
+    --brown:#4D0B0B;
+}
+
+#logo{
+    width: 100%;
+    height: 100px;
+}
+
+.nav-item i{
+    color: rgb(175, 175, 175);
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.nav-item #contactbtn{
+    background-color: var(--brown);
+    color: white;
+}
+
+#contactbtn:hover{
+    background-color: white;
+    color: var(--brown);
+    border-color: var(--brown);
+}
+
+
+.main{
+    background-image: url(https://png.pngtree.com/background/20231030/original/pngtree-elegant-living-space-in-high-end-home-a-dark-opulent-room-picture-image_5802306.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 120vh;
+}
+
+.welcome{
+    padding-top: 22%;
+    padding-left: 5%;
+    color: white;
+}
+
+.welcome h1{
+    font-size: 105px;
+}
+
+#Gallery button{
+    width: 25%;
+}
+
+@media(max-width:600px){
+    .welcome h1{
+        font-size: 50px;
+    }
+
+    .nav-item i{
+        display: none;
+    }
+
+    #Gallery button{
+        width: 75%;
+    }
+}
+
+.work{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy5LLkVhP9mQrOh8r6M5BLUuFN_oPe-Ie9vwzxxjir_Q&s);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    /* background-attachment: fixed; */
+    background-position: center;
+    padding-top: 1%;
+
+}
+
+.work h1{
+   padding-top: 4%;
+}
+
+#work-title{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.viewbtn{
+    border-color: var(--brown);
+    color: var(--brown);
+}
+
+.viewbtn:hover{
+    background-color: var(--brown);
+    color: white;
+}
+
+#work-container{
+    margin-top: 30px;
+}
+
+
+.imgDiv{
+    width: 100%;
+    height: 490px;
+    border: 5px solid var(--brown);
+    padding-top: 4%;
+    padding-left: 4%;
+}
+
+.hr{
+    width: 20%;
+    height: 5px;
+    background-color: var(--brown);
+}
+
+#fur{
+    color: var(--brown);
+}
+
+#Gallery{
+    padding-top: 5%;
+}
+
+#Gallery h1{
+    padding-bottom: 5%;
+    font-weight: 600;
+}
+
+.img1{
+    position: relative;
+}
+
+.rosewood{
+    width: 50%;
+    padding: 4%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.icons{
+    color: rgb(87, 84, 84);
+}
+
+.icons i:hover{
+    color: rgb(113, 110, 110);
+}
